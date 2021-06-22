@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T03:29:19.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" version="14.8.0" etag="P60dX6ckjwbvLrZF2urW" type="github"><diagram id="X2jCxkgvXmnpkRFKVwW3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-22T06:32:29.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="pH6SIrqMyhl_-s5Pd44d" version="14.8.0" type="github">
+  <diagram id="X2jCxkgvXmnpkRFKVwW3" name="第 1 页">
+    <mxGraphModel dx="1025" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EsbE822QFZ23bRu3dG4t-15" value="close&lt;br style=&quot;font-size: 24px;&quot;&gt;关闭" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=24;fontColor=#333333;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="15" y="280" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-18" value="SYN-SENT&lt;br style=&quot;font-size: 24px;&quot;&gt;同步已发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="15" y="350" width="205" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-19" value="ESTABLISHED&lt;br style=&quot;font-size: 24px;&quot;&gt;连接已建立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="15" y="540" width="205" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-20" value="LISTEN&lt;br style=&quot;font-size: 24px;&quot;&gt;监听" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=24;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="198" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-21" value="SYN-RCVD&lt;br style=&quot;font-size: 24px;&quot;&gt;接收已同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=24;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="198" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-22" value="ESTABLISHED&lt;br style=&quot;font-size: 24px;&quot;&gt;连接已建立" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=24;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="630" y="575" width="198" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-23" value="客户端（Client）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;fontFamily=Comic Sans MS;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-25" value="服务端（Server）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=24;fontFamily=Comic Sans MS;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-26" value="" style="endArrow=classic;html=1;fontSize=30;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000B8;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EsbE822QFZ23bRu3dG4t-15" target="EsbE822QFZ23bRu3dG4t-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-27" value="连接请求&lt;br style=&quot;font-size: 19px;&quot;&gt;SYN = 1，ACK= 0，Seq = x" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=19;rotation=5;fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="EsbE822QFZ23bRu3dG4t-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-40" value="" style="endArrow=classic;html=1;fontSize=19;strokeColor=#0000B8;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EsbE822QFZ23bRu3dG4t-21" target="EsbE822QFZ23bRu3dG4t-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="390" as="sourcePoint" />
+            <mxPoint x="490" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-41" value="&lt;span style=&quot;font-size: 19px&quot;&gt;连接请求确认&lt;/span&gt;&lt;br style=&quot;font-size: 19px&quot;&gt;&lt;span style=&quot;font-size: 19px&quot;&gt;SYN = 1，ACK= 1，Seq = y，ack = x + 1&lt;br&gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=-20;fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="EsbE822QFZ23bRu3dG4t-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-42" value="" style="endArrow=classic;html=1;fontSize=19;strokeColor=#0000B8;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.015;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EsbE822QFZ23bRu3dG4t-19" target="EsbE822QFZ23bRu3dG4t-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="545" as="sourcePoint" />
+            <mxPoint x="609" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-43" value="&lt;span style=&quot;font-size: 19px&quot;&gt;确认&lt;/span&gt;&lt;br style=&quot;font-size: 19px&quot;&gt;&lt;span style=&quot;font-size: 19px&quot;&gt;ACK= 1，seq = x + 1，ack = y + 1&lt;br&gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=5;fontFamily=Comic Sans MS;" connectable="0" vertex="1" parent="EsbE822QFZ23bRu3dG4t-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="33" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-44" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;fontFamily=Comic Sans MS;fontSize=24;strokeColor=#82b366;entryX=-0.005;entryY=0.91;entryDx=0;entryDy=0;entryPerimeter=0;width=18;endSize=4.34;fontColor=#9AC7BF;fillColor=#d5e8d4;" edge="1" parent="1" target="EsbE822QFZ23bRu3dG4t-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="480" y="716" as="sourcePoint" />
+            <mxPoint x="330" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-45" value="传输数据" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;fontFamily=Comic Sans MS;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbE822QFZ23bRu3dG4t-46" value="" style="shape=flexArrow;endArrow=none;startArrow=classic;html=1;fontFamily=Comic Sans MS;fontSize=24;strokeColor=#82b366;exitX=1;exitY=0.885;exitDx=0;exitDy=0;exitPerimeter=0;width=18;endSize=4.34;fontColor=#9AC7BF;fillColor=#d5e8d4;entryX=0;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EsbE822QFZ23bRu3dG4t-19" target="EsbE822QFZ23bRu3dG4t-45">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="717" as="sourcePoint" />
+            <mxPoint x="360" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
